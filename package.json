@@ -1,0 +1,14 @@
+{
+  "name": "notify",
+  "version": "0.0.1",
+  "description": "A simple Notification API wrapper",
+  "main": "notify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notification"
+  ],
+  "author": "Revath S Kumar <rsk@revathskumar.com> (http://blog.revathskumar.com)",
+  "license": "MIT"
+}
