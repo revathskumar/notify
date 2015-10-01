@@ -4,7 +4,7 @@
   "description": "A simple Notification API wrapper",
   "main": "notify.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/karma-cli/bin/karma start --browsers Chrome,Firefox --single-run"
   },
   "keywords": [
     "notification"
@@ -12,6 +12,10 @@
   "author": "Revath S Kumar <rsk@revathskumar.com> (http://blog.revathskumar.com)",
   "license": "MIT",
   "devDependencies": {
+    "karma": "^0.13.10",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-mocha": "^0.2.0",
     "mocha": "^2.3.3"
   },
   "dependencies": {
