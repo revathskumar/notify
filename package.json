@@ -10,5 +10,11 @@
     "notification"
   ],
   "author": "Revath S Kumar <rsk@revathskumar.com> (http://blog.revathskumar.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "sinon": "^1.17.1"
+  }
 }
