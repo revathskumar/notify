@@ -5,6 +5,12 @@ module.exports = function(config){
       browserName: 'chrome',
       platform: 'Windows 7',
       version: '35'
+    },
+    sl_chrome_osx: {
+      base: 'SauceLabs',
+      browserName: 'chrome',
+      platform: 'OS X 10.11',
+      version: '44.0'
     }
   };
 
